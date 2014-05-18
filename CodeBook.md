@@ -1,8 +1,7 @@
-# CodeBook for run_analysis.R
-
+# CodeBook for finalData.txt
 ## Introduction
 
-The run_analysis.R was produced from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">UC Irvine Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set</a> website.  The data was created as a project for Coursera's <b> Getting and Cleaning Data</b> course.
+The finalData.txt was produced from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">UC Irvine Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set</a> website.  The data was created as a project for Coursera's <b> Getting and Cleaning Data</b> course.
 
 The overall goal of the project was to create a clean dataset.  Specifically, the purpose of the assignment was to:
 
@@ -24,7 +23,7 @@ The study randomly split the data into study and test datasets.
 
 ## Data Transformations
 
-The sections below discuss the data transformations performed on the raw data download.  The <b>dataClean.R script</b> performs the data transformations and creates the final dataset.  Information on running the <b>dataClean.R script</b> can be found in the <b>README.md</b>.
+The sections below discuss the data transformations performed on the raw data download.  The <b>run_analysis.R script</b> performs the data transformations and creates the final dataset.  Information on running the <b>run_analysis.R script</b> can be found in the <b>README.md</b>.
 
 ### Merging of Data
 
@@ -54,11 +53,11 @@ The 66 mean and standard deviation measurements were then averaged by subject an
 
 ## finalDataset
 
-The script writes the data above into a tab delimited text file named <b>run_analysis.R</b>.  The file contains 180 observations and 69 variables.  The variables are described below.
+The script writes the data above into a tab delimited text file named <b>finalData.txt</b>.  The file contains 180 observations and 69 variables.  The variables are described below.
 
 ### Variables
 
-The variables in the <b>finalDataSet.txt</b> are:
+The variables in the <b>finalData.txt</b> are:
 
 <ol>
 <li><b>actvity</b>: character field with activity of the user (i.e. "walking", "walking upstairs","walking downstairs","sitting","standing","lying")
