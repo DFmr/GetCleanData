@@ -29,7 +29,7 @@ The sections below discuss the data transformations performed on the raw data do
 
 The data came in a zip file named <b>UCI HAR Dataset</b>.  The file was downloaded and unzipped in the R script.  The unzipped folder contained text files with the measurement names (<b>feature.txt</b>), the six activity names and associated 1-6 code (<b>activity.txt</b>).
 
-Data  for the  training and test datasets were contained in two separate subfolder -- <b>test</b> and <b>train</b>. Each file contained a text files with the <b>subject numbers_train or test</b>, the activity <b>Y_train or test</b>, and the measurements <b>X_train or test</b>.
+Data  for the  training and test datasets were contained in two separate subfolder -- <b>test</b> and <b>train</b>. Each file contained a text files with the <b>subject_train or test</b>, the activity <b>Y_train or test</b>, and the measurements <b>X_train or test</b>.
 
 The script combined these datasets into one dataframe.  First, the script bound (or appended) the subject number, activity, and measuremnt columns for both the test and training sets.  The script then appended test and training dataframe rows to create a single dataframe with both test and training records.  Finally, the script merged <b>activity.txt</b> with this single dataframe using the activity code.  This last merge provided a column with text names for each of the six activities.
 
