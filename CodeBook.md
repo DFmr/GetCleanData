@@ -1,8 +1,8 @@
-# CodeBook for dataFinal.txt
+# CodeBook for run_analysis.R
 
 ## Introduction
 
-The dataFinal.txt was produced from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">UC Irvine Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set</a> website.  The data was created as a project for Coursera's <b> Getting and Cleaning Data</b> course.
+The run_analysis.R was produced from the <a href="http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones">UC Irvine Machine Learning Repository:Human Activity Recognition Using Smartphones Data Set</a> website.  The data was created as a project for Coursera's <b> Getting and Cleaning Data</b> course.
 
 The overall goal of the project was to create a clean dataset.  Specifically, the purpose of the assignment was to:
 
@@ -54,7 +54,7 @@ The 66 mean and standard deviation measurements were then averaged by subject an
 
 ## finalDataset
 
-The script writes the data above into a tab delimited text file named <b>dataFinal.txt</b>.  The file contains 180 observations and 69 variables.  The variables are described below.
+The script writes the data above into a tab delimited text file named <b>run_analysis.R</b>.  The file contains 180 observations and 69 variables.  The variables are described below.
 
 ### Variables
 
